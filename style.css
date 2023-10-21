@@ -1,9 +1,81 @@
-body{
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing : border-box;
+    font-family : arial;
+}
+#page1{
     background-color: black;
+    display : flex;
+    width : 100vw;
+    height : 90vh;
+
 }
 .text{
     color: white;
 }
-#main2{
-    background-color : #202020;
+
+#pic1{
+    display : flex;
+    justify-content : space-between;
+    flex-wrap : wrap;
+}
+#pic2{
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : space-between;
+}
+.div2{
+    display : flex;
+}
+#footer{
+    position : fixed;
+    height : 10vh;
+    background-color : #181818;
+    bottom : 0px;
+    width : 100vw;
+    color : white;
+    text-align : centre;
+
+}
+#main{
+    flex : 1;
+    background-color : #000;
+    justify-content : space-between;
+   
+
+}
+#half{
+   flex : 4;
+   background-color : #202020;
+}
+.img{
+    color : white;
+    
+}
+
+
+#angle{
+    position : fixed;
+    top : 10px;
+    right : 10px;
+    background-color : black;
+    color : white;
+    border-radius: 20%;
+}
+#allcont{
+    display : flex;
+    justify-content : space-between;
+}
+#audio{
+    align-content : center;
+}
+#main>div{
+    padding : 10px;
+}
+#main2>span{
+    padding : 10px;
+}
+#main3>div{
+    padding : 10px;
 }
