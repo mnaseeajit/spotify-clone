@@ -479,7 +479,7 @@ section{
     }
     #footer{
         width : 100%;
-        margin : 10px;
+        margin : 0px;
     }
 }
 @media screen and (width : 425px){
@@ -543,3 +543,4 @@ section{
     color : white;
     text-decoration : none;
 }
+
