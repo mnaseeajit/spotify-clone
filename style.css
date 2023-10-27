@@ -8,17 +8,36 @@
     background-color: black;
     display : flex;
     width : 100vw;
-    height : 90vh;
+    height : 100%;
 
 }
 .text{
     color: white;
 }
-
+#half{
+    margin-left : 200px;
+}
 #pic1{
     display : flex;
     justify-content : space-between;
     flex-wrap : wrap;
+}
+.text1{
+    color : white;
+    font-size : medium;
+}
+#texta{
+    padding-right : 70px;
+    
+}
+#textb{
+    padding-right : 60px;
+}
+#textc{
+    padding-right : 120px;
+}
+#textd{
+    padding-right : 30px;
 }
 #pic2{
     display : flex;
@@ -33,21 +52,124 @@
     height : 10vh;
     background-color : #181818;
     bottom : 0px;
-    width : 100vw;
+    width : 100%;
     color : white;
-    text-align : centre;
-
+     display : flex;
+     flex-wrap: wrap;
 }
-#main{
+#bottom-left{
+    display : flex;
+    justify-content: space-between;
+}
+#heart{
+    width : 30px;
+    height : 30px;
+}
+#neffex{
+    height : 60px;
+    width : 60px;
+    padding : 7px;
+    margin : 7px;
+}
+#bottom-left>div{
+  margin-top : 10px;
+}
+#heart{
+    margin-top : 15px;
+    padding-left : 10px;
+}
+#arrow{
+    color : #686868;
+}
+#head2{
+    display : flex;
+    justify-content : right;
+    padding-top : 10px;
+}
+#imgangle{
+   padding-right: 60px;
+   position : fixed;
+}
+
+#arrow{
+    display : flex;
+    flex-direction: row;
+    justify-content : center;
+    align-items : center;
+    padding-top : 10px;
+}
+#arrow2{
+    padding-left : 20px;
+    position : fixed;
+}
+#arrow1{
+    padding-top : 5px;
+    position : fixed;
+}
+
+select {
+    padding-top : 0px;
+    border : none;
+}
+#sidebar1{
     flex : 1;
     background-color : #000;
+    display:flex;
+    flex-direction : column;
+    position : fixed;
+    height : 90%;
+}
+#logo{
+    width : 120px;
+    height : 40px;
+}
+#sidebar1>div{
+    padding-top : 10px;
+}
+#sidebar1>div>img{
+   height : 20px;
+   padding-right : 20px;
+   padding-left : 20px;
+}
+.text{
+    font-size:small;
+}
+#sidebar1>h2{
+    margin-left : 20px;
+    margin-top : 20px;
+}
+#head{
+    display : flex;
     justify-content : space-between;
-   
-
+}
+#morning{
+    font-size: xx-large;
+    padding-top : 50px;
 }
 #half{
    flex : 4;
-   background-color : #202020;
+   background-color : #151515;
+}
+#pic1{
+    display : flex;
+    width : 80%;
+}
+#pic2{
+    width : 80%;
+}
+#pic1>span{
+    width : 300px;
+    background-color : #303030;
+    display : flex;
+    justify-content : space-between;
+    align-items : center;
+    margin-top : 10px;
+}
+#pic1>span>.text{
+    margin-left : 0px;
+}
+#like{
+    font-size: xx-large;
 }
 .img{
     color : white;
@@ -67,9 +189,7 @@
     display : flex;
     justify-content : space-between;
 }
-#audio{
-    align-content : center;
-}
+
 #main>div{
     padding : 10px;
 }
@@ -78,4 +198,341 @@
 }
 #main3>div{
     padding : 10px;
+}
+
+/* next slide css */
+
+#main{
+   width : 100%;
+  height : 100%;
+  background-color : #000000;
+}
+#sidebar{
+    width : 20vw;
+    height : 85vh;
+    display : flex;
+    flex-direction : column;
+    padding : 10px;
+    margin-inline : 10px;
+    position : fixed;
+    left : 0px;
+    top : 0px;
+}
+#playlist{
+    padding-top : 20px;
+}
+#lastimg{
+    padding-top : 10px;
+}
+#footer{
+    width : 100%;
+    height : 15vh;
+    color : #ffffff;
+    display : flex;
+    padding-bottom : 10px;
+}
+#up{
+    background-color : #7b958f;
+    display : flex;
+    margin-top : 0%;
+    padding-top: 0%;
+    height : 40vh;
+    width : 80vw;
+    position : fixed;
+    top : 0px;
+    right : 0px;
+}
+#text{
+    margin-top : 50px;
+}
+#p1{
+    font-family: Circular Std;
+font-size: 13px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: -0.02em;
+text-align: left;
+  color : #ffffff;
+  padding-top : 0px;
+  margin-top : 10px;
+}
+#big{
+    width : 607px;
+    height : 114px;
+    font-family: Circular Std;
+font-size: 90px;
+font-weight: 900;
+line-height: 114px;
+letter-spacing: -0.02em;
+text-align: left;
+color : #ffffff;
+}
+.p2{
+    color : #d3d3d3;
+}
+#spotify{
+    width : 49px;
+    height : 22px;
+    color : #ffffff;
+}
+
+.stext{
+    color : white;
+    font-family: Circular Std;
+font-size: 20px;
+font-weight: 700;
+line-height: 16px;
+letter-spacing: 0em;
+text-align: left;
+   padding : 10px;
+}
+#sidebar>div{
+    display : flex;
+    padding-top: 20px;
+}
+#img1{
+    width: 129.15px ;
+height: 39.41px ;
+}
+.img2{
+    width: 24px
+height: 24px
+top: 8px
+left: 16px
+padding: 3.74px, 2.55px, 2.25px, 3px
+
+}
+#half{
+    display : flex;
+}
+#playlist{
+    padding-top : 0px;
+    width : 80vw;
+}
+#play>.img3{
+   padding : 20px;
+}
+#play2 { 
+    margin-bottom : 10px;
+}
+#play3{
+    margin-bottom : 20px;
+}
+.td1{
+    display : flex;
+    padding : 10px;
+    justify-content : center;
+    align-items : center;
+}
+.td1>p , .td1>img , .td1>div{
+    padding : 10px;
+}
+#down{
+    color : white;
+    background-color : #000000;
+    padding-left : 265px;
+    padding-top : 240px
+   
+}
+
+
+.list>div{
+    display : flex;
+    flex-direction : row;
+    justify-content: space-between;
+
+}
+#first , #play , #title{
+    background-color: #262f2c;
+    width : 80vw;
+}
+section{
+    background-color : #000000;
+    color : white;
+    width : 80vw;
+}
+
+.list > div > p{
+    padding : 25px;
+}
+.time{
+    padding :  25px;
+}
+#title{
+    display : flex;
+    justify-content : space-between;
+
+}
+#first>div{
+    display : flex;
+    justify-content : space-between;
+}
+#f1{
+    display : flex;
+    padding :10px;
+}
+#f1>img , #f1>div{
+  padding : 10px;
+}
+#first>div>#f2 , #first>div>#f3 ,#first>div>#f4{
+    padding-top : 25px;
+}
+#f3{
+    margin-left : 50px;
+}
+#f2{
+    margin-left : 30px;
+}
+#f4>img{
+    padding-inline: 12px;
+}
+#f4{
+    padding-right : 30px;
+}
+.time>img{
+    padding-inline : 12px;
+}
+#pr1{
+    padding-left : 15px;
+}
+#pr3{
+    padding-right : 220px;
+}
+#footer{
+    display : flex;
+    justify-content : space-between;
+    width : 100vw;
+}
+#footer>#foot1{
+    display : flex;
+    padding : 10px;
+    margin : 10px;
+}
+#foot1>img{
+    padding-left : 10px;
+}
+#foot2>img{
+    width : 500px;
+}
+#foot2{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+#foot2>#foot21>img{
+    padding-left : 20px;
+    padding-bottom : 10px;
+
+}
+#foot3>img{
+    padding-right : 10px;
+    padding-top : 30px;
+}
+.fc{
+    margin-bottom : 10px;
+}
+#foot2 > #foot21 > #footmid{
+    padding-top : 10px;
+}
+@media screen and (max-width : 480px){
+    #footer>div>div{
+        display : flex;
+        flex-direction : column;
+        flex-wrap : wrap;
+    }
+    #texta ,#textb ,#textc{
+        padding-left : 10px;
+    }
+    #textd{
+        padding-right : 10px;
+    }
+    #pic1>#spanc{
+        width : 100%;
+    }
+    #footer{
+        width : 100%;
+    }
+}
+@media screen and (width : 1440px){
+    #down > #play {
+        padding-top : 180px;
+    }
+}
+@media screen and (width : 1024px){
+    #down > #play {
+        padding-top : 30px;
+    }
+}
+@media screen and (width : 768px){
+    #up {
+       height : 250px;
+    }
+    #pr3{
+        padding-right: 80px;
+    }
+    #footer{
+        width : 100%;
+        margin : 10px;
+    }
+}
+@media screen and (width : 425px){
+    #up{
+        width :1000px;
+        height : 20%;
+    }
+    #down{
+        width : 100vw;
+    }
+    #play , #title , #first{
+        width : 1000px;
+    }
+    section{
+        width : 1000px;
+        height : 1000px;
+    }
+    #play{
+        padding-top : 50px;
+    }
+}
+@media screen and (width : 375px){
+    #up{
+        width :1000px;
+        height : 20%;
+    }
+    #down{
+        width : 100vw;
+    }
+    #play , #title , #first{
+        width : 1000px;
+    }
+    section{
+        width : 1000px;
+        height : 1200px;
+    }
+    #play{
+        padding-top : 90px;
+    }
+}
+@media screen and (width : 320px){
+    #up{
+        width :1000px;
+        height : 20%;
+    }
+    #down{
+        width : 100vw;
+    }
+    #play , #title , #first{
+        width : 1000px;
+    }
+    section{
+        width : 1000px;
+        height : 1500px;
+    }
+    #play{
+        padding-top : 150px;
+    }
+}
+#pic1 >span> #texta >a{
+    color : white;
+    text-decoration : none;
 }
