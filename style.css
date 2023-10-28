@@ -460,6 +460,13 @@ section{
         width : 100%;
     }
 }
+@media screen and (min-width : 2560px){
+    #down  {
+        padding-top : 700px;
+        padding-left : 500px;
+        height: 100vh;
+    }
+}
 @media screen and (width : 1440px){
     #down > #play {
         padding-top : 180px;
@@ -468,6 +475,9 @@ section{
 @media screen and (width : 1024px){
     #down > #play {
         padding-top : 30px;
+    }
+    #footer{
+        width : 100%;
     }
 }
 @media screen and (width : 768px){
