@@ -3,6 +3,7 @@
     margin : 0px;
     box-sizing : border-box;
     font-family : arial;
+    padding-right: 5px;
 }
 #page1{
     background-color: black;
@@ -42,27 +43,63 @@
 #pic2{
     display : flex;
     flex-wrap : wrap;
-    justify-content : space-between;
+    justify-content :safe;
+    
 }
 .div2{
     display : flex;
 }
+.div2>h2>a{
+    color : white;
+    text-decoration: none;
+}
 #footer{
     position : fixed;
-    height : 10vh;
-    background-color : #181818;
+    left : 0px;
+    bottom : 0px;
+    height : 15vh;
+    background-color : #181818 !important;
+    
+    width : 100%;
+    color : white;
+     display : flex;
+     padding-bottom : 10px;
+}
+/* #footer{
+    width : 100%;
+    height : 15vh;
+    color : #ffffff;
+    display : flex;
+    
+} */
+#footer-re{
+    position : fixed;
+    height : 15vh;
+    background-color : #181818 !important;
     bottom : 0px;
     width : 100%;
     color : white;
      display : flex;
-     flex-wrap: wrap;
+     /* flex-wrap: wrap; */
+     padding-bottom: 10px;
 }
+/* #footer-re{
+    width : 100vw;
+    height : 15vh;
+    color : #ffffff;
+    display : flex;
+    padding-bottom : 10px;
+    background-color: #181818;
+    z-index: 5;
+} */
+
 #bottom-left{
     display : flex;
     justify-content: space-between;
+    align-items: center;
 }
 #heart{
-    width : 30px;
+    width : 40px;
     height : 30px;
 }
 #neffex{
@@ -70,6 +107,9 @@
     width : 60px;
     padding : 7px;
     margin : 7px;
+}
+#bottom-left>div>p{
+    color : #b3b3b3;
 }
 #bottom-left>div{
   margin-top : 10px;
@@ -84,10 +124,12 @@
 #head2{
     display : flex;
     justify-content : right;
+    
     padding-top : 10px;
 }
 #imgangle{
-   padding-right: 60px;
+    width: 70px;
+   padding-right: 50px;
    position : fixed;
 }
 
@@ -112,14 +154,19 @@ select {
     border : none;
 }
 #sidebar1{
-    flex : 1;
+    /* flex : 0.5; */
+    width : 200px;
     background-color : #000;
     display:flex;
     flex-direction : column;
-    position : fixed;
+     position : fixed; 
+     top : 0px;
+     left : 0px;
     height : 90%;
+    /* z-index: 1; */
 }
 #logo{
+    margin : 10px 15px 10px;
     width : 120px;
     height : 40px;
 }
@@ -136,7 +183,7 @@ select {
 }
 #sidebar1>h2{
     margin-left : 20px;
-    margin-top : 20px;
+    margin-top : 15px;
 }
 #head{
     display : flex;
@@ -152,10 +199,11 @@ select {
 }
 #pic1{
     display : flex;
-    width : 80%;
+    justify-content:safe;
+    width : 100%;
 }
 #pic2{
-    width : 80%;
+    width : 100%;
 }
 #pic1>span{
     width : 300px;
@@ -178,6 +226,7 @@ select {
 
 
 #angle{
+    font-weight: 900;
     position : fixed;
     top : 10px;
     right : 10px;
@@ -189,16 +238,32 @@ select {
     display : flex;
     justify-content : space-between;
 }
-
+#allcont>h2{
+    padding-left: 10px;
+    padding-top: 10px;
+}
+#allcont>p{
+    padding-top: 30px;
+}
 #main>div{
     padding : 10px;
 }
 #main2>span{
     padding : 10px;
 }
+#head{
+    padding-left: 20px;
+}
+#main2>h1 ,#main2>#pic1{
+    padding-left: 20px;
+}
 #main3>div{
     padding : 10px;
 }
+#pic2>div{
+    padding: 6px;
+}
+
 
 /* next slide css */
 
@@ -222,22 +287,19 @@ select {
     padding-top : 20px;
 }
 #lastimg{
-    padding-top : 10px;
+    padding-top : 20px;
+    width : 200px
 }
-#footer{
-    width : 100%;
-    height : 15vh;
-    color : #ffffff;
-    display : flex;
-    padding-bottom : 10px;
-}
+
+
 #up{
     background-color : #7b958f;
     display : flex;
     margin-top : 0%;
     padding-top: 0%;
+   
     height : 40vh;
-    width : 80vw;
+    width : 84vw;
     position : fixed;
     top : 0px;
     right : 0px;
@@ -275,31 +337,51 @@ color : #ffffff;
     height : 22px;
     color : #ffffff;
 }
-
-.stext{
+#sidebar>div :hover{
+    background-color: #282828;
     color : white;
+     /* width : 100%; */
+   /* height: 100%; */
+}
+
+#sidebar>div{
+    width : 100%;
+}
+.stext{
+    color : #858585;
     font-family: Circular Std;
-font-size: 20px;
-font-weight: 700;
-line-height: 16px;
+ font-size: 15px;
+font-weight: 500;
+ padding-left: 10px;
+/*line-height: 16px;
 letter-spacing: 0em;
 text-align: left;
-   padding : 10px;
+   padding : 10px; */
 }
 #sidebar>div{
     display : flex;
-    padding-top: 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    
 }
+#playlist1{
+    margin-top: 20px;
+    margin-bottom: -10px;
+}
+/* #home{
+    background-color: #282828;
+} */
 #img1{
     width: 129.15px ;
 height: 39.41px ;
+margin-top: 10px;
+margin-left: -10px;
 }
 .img2{
-    width: 24px
-height : 24px
-top: 8px
-left: 16px
-padding: 3.74px, 2.55px, 2.25px, 3px
+    width: 20px;
+height : 20px;
+
 
 }
 #half{
@@ -330,9 +412,9 @@ padding: 3.74px, 2.55px, 2.25px, 3px
 #down{
     color : white;
     background-color : #000000;
-    padding-left : 265px;
-    padding-top : 240px
-   
+    padding-left : 218px;
+    padding-top : 240px;
+    
 }
 
 
@@ -413,6 +495,29 @@ section{
     padding-top: 20px;
     margin : 0px;
 }
+#footer-re{
+    display : flex;
+    justify-content : space-between;
+    /* width : 100vw; */
+    /* position: fixed;
+    bottom: 0px; */
+}
+#footer-re>#foot1{
+    display : flex;
+    padding-top: 20px;
+    margin : 0px;
+}
+#foot1>div>p{
+    font-size: medium;
+}
+#foot1>div{
+    font-size: small;
+}
+#foot1>.re-img{
+    width : 40px;
+    height : 20px;
+}
+
 #foot1>img{
     padding-left : 20px;
     height : 40px;
@@ -426,15 +531,31 @@ section{
     flex-direction : column;
     align-items : center;
 }
+#foot2-re{
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
 #foot2>#foot21>img{
     padding-left : 20px;
     padding-bottom : 10px;
 
 }
+#foot2-re>#foot21>img{
+    padding-left : 20px;
+    padding-bottom : 10px;
+
+}
 #foot3>img{
+    
     padding-right : 10px;
     padding-top : 30px;
+
 }
+#foot3-img{
+    padding-bottom: 10px;
+}
+
 .fc{
     margin-bottom : 10px;
 }
@@ -442,10 +563,13 @@ section{
     padding-top : 10px;
 }
 @media screen and (max-width : 480px){
-    #footer>div>div{
+    /* #footer>div>div{
         display : flex;
         flex-direction : column;
         flex-wrap : wrap;
+    } */
+    #half{
+        height : 100%;
     }
     #texta ,#textb ,#textc{
         padding-left : 10px;
@@ -458,18 +582,90 @@ section{
     }
     #footer{
         width : 100%;
+        
     }
+    #footer-re{
+        /* width : 100vw !important; */
+        height: 30vh;
+       background-color: #181818;
+    }
+    #bottom-left{
+        display: none;
+    }
+    /* .fc{
+        display: none;
+    } */
+    /* #foot22{
+        width: 300px;
+    } */
+    #foot3{
+        display: none;
+    }
+    #foot1{
+        visibility: hidden;
+    }
+    #foot2-re>#foot21>img{
+        margin-inline: 20px;
+    }
+    #re1{
+        padding-right: 120px;
+    }
+    #foot2-re{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #foot2-re>#foot21{
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+    }
+     #foot2-re>#foot21>#footmid{
+          width : 100px;
+    }
+    #foot2-re>#foot21>.fc{
+        width : 40px;
+    }
+    
+    #re1{
+        width : 1000px;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    #foot2{
+        padding-left: 20px;
+    }
+    
 }
+
 @media screen and (min-width : 2560px){
     #down  {
         padding-top : 700px;
         padding-left : 500px;
         height: 100vh;
     }
+    #footer{
+        height : 5vh;
+    }
+    #half{
+        height : 95vh;
+    }
+    #footer-re{
+        height : 5vh;
+    }
 }
 @media screen and (width : 1440px){
     #down > #play {
         padding-top : 180px;
+    }
+    #half{
+        height : 92vh;
+    }
+    #footer{
+        height : 8vh;
+    }
+    #footer-re{
+        height : 10vh;
     }
 }
 @media screen and (width : 1024px){
@@ -478,6 +674,12 @@ section{
     }
     #footer{
         width : 100%;
+    }
+    #footer-re{
+        height : 11vh;
+    }
+    #re1{
+        width : 50vw;
     }
 }
 @media screen and (width : 768px){
@@ -490,6 +692,27 @@ section{
     #footer{
         width : 100%;
         margin : 0px;
+    }
+    #foot2>img{
+        width : 300px;
+    }
+    #footer-re{
+        height : 15vh;
+    }
+    #foot1>div>p{
+        display: none;
+    }
+    .re-img{
+        display: none;
+    }
+    #re1{
+        width : 50vw;
+    }
+    #foot3{
+        padding-left: 50px;
+    }
+    #foot2{
+        padding-left: 50px;
     }
 }
 @media screen and (width : 425px){
