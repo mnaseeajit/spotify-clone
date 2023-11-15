@@ -74,14 +74,14 @@
 } */
 #footer-re{
     position : fixed;
-    height : 15vh;
+    height : 12vh;
     background-color : #181818 !important;
     bottom : 0px;
     width : 100%;
     color : white;
      display : flex;
      /* flex-wrap: wrap; */
-     padding-bottom: 10px;
+     /* padding-bottom: 1px; */
 }
 /* #footer-re{
     width : 100vw;
@@ -287,13 +287,15 @@ select {
     padding-top : 20px;
 }
 #lastimg{
-    padding-top : 20px;
-    width : 200px
+    padding-top : 60px;
+    width : 200px;
+    
 }
 
 
 #up{
     background-color : #7b958f;
+    background: linear-gradient(#7b958f , #3a4644);
     display : flex;
     margin-top : 0%;
     padding-top: 0%;
@@ -394,17 +396,24 @@ height : 20px;
 #play>.img3{
    padding : 20px;
 }
+#play1{
+    width: 70px;
+    margin-bottom: 7px;
+}
 #play2 { 
     margin-bottom : 10px;
+    width : 65px;
 }
+
 #play3{
     margin-bottom : 20px;
 }
 .td1{
     display : flex;
-    padding : 10px;
+    /* padding : 1px; */
     justify-content : center;
     align-items : center;
+    
 }
 .td1>p , .td1>img , .td1>div{
     padding : 10px;
@@ -414,31 +423,64 @@ height : 20px;
     background-color : #000000;
     padding-left : 218px;
     padding-top : 240px;
-    
+    width :100vw;
 }
-
+.list :hover{
+    background-color: #222525;
+}
 
 .list>div{
     display : flex;
     flex-direction : row;
     justify-content: space-between;
-
+    align-items: center;
 }
-#first , #play , #title{
-    background-color: #262f2c;
-    width : 80vw;
+ #play , #title{
+    width : 100%;
+}
+#playTitle{
+    background-color: white;
+    background: linear-gradient(#252e2b , black);
+}
+#first-1{
+    background-color: #212423;
+   
+}
+#title{
+    padding-bottom: 20px;
+}
+#title>p{
+    font-weight: 100;
+    font-size: smaller;
+}
+p{
+    font-weight: 100;
+    font-size: smaller;
+}
+h3{
+
+    font-weight: 100;
+    font-size: smaller;
+}
+#good>h3 , #good>p{
+    font-weight: 100;
+    font-size: smaller;
 }
 section{
     background-color : #000000;
     color : white;
     width : 80vw;
 }
-
+.list{
+    height: 50px;
+}
 .list > div > p{
-    padding : 25px;
+    padding : 2px;
 }
 .time{
-    padding :  25px;
+    padding :  2px;
+    font-weight: 100;
+    font-size: smaller;
 }
 #title{
     display : flex;
@@ -509,9 +551,11 @@ section{
 }
 #foot1>div>p{
     font-size: medium;
+    color : white;
 }
 #foot1>div{
     font-size: small;
+    color :#686868;
 }
 #foot1>.re-img{
     width : 40px;
@@ -521,7 +565,7 @@ section{
 #foot1>img{
     padding-left : 20px;
     height : 40px;
-    width : 40px;
+    width : 60px;
 }
 #foot2>img{
     width : 500px;
@@ -543,8 +587,12 @@ section{
 }
 #foot2-re>#foot21>img{
     padding-left : 20px;
-    padding-bottom : 10px;
-
+}
+#foot2-re>#foot21>#footmid{
+    padding-top: 10px;
+}
+#re1{
+    width : 600px;
 }
 #foot3>img{
     
@@ -609,6 +657,7 @@ section{
     }
     #re1{
         padding-right: 120px;
+
     }
     #foot2-re{
         display: flex;
