@@ -17,6 +17,11 @@
 .text{
     color: white;
 }
+#sidebar1 .text:hover{
+    cursor: pointer;
+    color : orangered;
+}
+
 #half{
     margin-left : 200px;
 }
@@ -24,6 +29,14 @@
     display : flex;
     justify-content : space-between;
     flex-wrap : wrap;
+}
+#pic1>span:hover{
+    background-color: #686868;
+    cursor: pointer;
+}
+#pic1>span{
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(77, 72, 72);
 }
 .text1{
     color : white;
@@ -48,6 +61,21 @@
     justify-content :safe;
     
 }
+#pic2>div{
+    box-shadow: 1px 1px 5px rgb(49, 39, 39);
+}
+#pic2>div>.text:hover{
+    cursor: pointer;
+    color :#686868;
+}
+#pic2>div:hover{
+    cursor: pointer;
+    filter:brightness(1.5);
+}
+#all:hover{
+    cursor: pointer;
+    color:#686868;
+}
 .div2{
     display : flex;
 }
@@ -67,13 +95,9 @@
      display : flex;
      padding-bottom : 10px;
 }
-/* #footer{
-    width : 100%;
-    height : 15vh;
-    color : #ffffff;
-    display : flex;
-    
-} */
+#foot21>img:hover{
+    cursor: pointer;
+}
 #footer-re{
     position : fixed;
     height : 12vh;
@@ -236,6 +260,9 @@ select {
     color : white;
     border-radius: 20%;
 }
+#angle:hover{
+   color :#686868;
+}
 #allcont{
     display : flex;
     justify-content : space-between;
@@ -343,8 +370,8 @@ color : #ffffff;
 #sidebar>div :hover{
     background-color: #282828;
     color : white;
-     /* width : 100%; */
-   /* height: 100%; */
+    cursor: pointer;
+     
 }
 
 #sidebar>div{
@@ -356,10 +383,7 @@ color : #ffffff;
  font-size: 15px;
 font-weight: 500;
  padding-left: 10px;
-/*line-height: 16px;
-letter-spacing: 0em;
-text-align: left;
-   padding : 10px; */
+
 }
 #sidebar>div{
     display : flex;
@@ -372,9 +396,7 @@ text-align: left;
     margin-top: 20px;
     margin-bottom: -10px;
 }
-/* #home{
-    background-color: #282828;
-} */
+
 #img1{
     width: 129.15px ;
 height: 39.41px ;
@@ -411,7 +433,6 @@ height : 20px;
 }
 .td1{
     display : flex;
-    /* padding : 1px; */
     justify-content : center;
     align-items : center;
     
@@ -425,12 +446,15 @@ height : 20px;
     padding-left : 218px;
     padding-top : 240px;
     width :100vw;
-    /* height: 60vh;
-    width: 84vw; */
+
     
+}
+#half{
+    width : 100vw;
 }
 .list :hover{
     background-color: #222525;
+    cursor: pointer;
 }
 
 .list>div{
@@ -439,9 +463,7 @@ height : 20px;
     justify-content: space-between;
     align-items: center;
 }
- /* #play , #title{
-    width : 100%;
-} */
+ 
 #playTitle{
     background: linear-gradient(#252e2b , black);
 
@@ -524,7 +546,7 @@ section{
     padding-left : 15px;
 }
 #pr3{
-    padding-right : 220px;
+    padding-right : 280px;
 }
 #imgplay{
     height : 30px;
@@ -544,9 +566,7 @@ section{
 #footer-re{
     display : flex;
     justify-content : space-between;
-    /* width : 100vw; */
-    /* position: fixed;
-    bottom: 0px; */
+    
 }
 #footer-re>#foot1{
     display : flex;
@@ -617,26 +637,12 @@ section{
 #half1{
     height : 100%;
 }
-/* #playTitle{
-    width : 85vw;
-} */
-@media screen and (max-width : 480px){
-    /* #up{
-        margin-right: 10px;
-    } */
+
+@media screen and (max-width : 500px){
     #half{
-        height : 100%;
+        width : 120% !important;
     }
-/* #half1{
-        width : 1230px;
-        height: 1800px;
-    } */
-    /* #down{
-        padding-top: 350px;
-    } */
-    /* #playTitle{
-        width : 1000px
-    } */
+    
     #texta ,#textb ,#textc{
         padding-left : 10px;
     }
@@ -651,19 +657,13 @@ section{
         
     }
     #footer-re{
-        /* width : 100vw !important; */
         height: 30vh;
        background-color: #181818;
     }
     #bottom-left{
         display: none;
     }
-    /* .fc{
-        display: none;
-    } */
-    /* #foot22{
-        width: 300px;
-    } */
+    
     #foot3{
         display: none;
     }
@@ -815,17 +815,11 @@ section{
      #half1{
         width : 850px;
     } 
-    /* #big{
-        font-size: 50px;
-        font-weight: 700;
-    } */
+    
     .p2{
         font-size: 10px;
     }
-    /* #playTitle{
-        width : 1000px;
-    }
-*/
+    
 #down{
     width : 850px;
     height : 1000px
@@ -837,7 +831,6 @@ section{
 @media screen and (width : 425px){
     #up{
         width :1000px;
-        /* height : 20%; */
     }
     #down{
         width : 100vw;
@@ -850,59 +843,12 @@ section{
         width : 1000px;
         height : 1000px;
     }
-    /* #play{
-        padding-top : 50px;
-    } */
+    
     #half1{
         height : 2500px;
     }
 }
-/* @media screen and (width : 375px){
-    #up{
-        width :1000px;
-        
-    }
-    #down{
-        width : 100vw;
-        padding-top: 300px;
-    }
-    #play , #title , #first{
-        width : 1000px;
-    }
-    section{
-        width : 1000px;
-        height : 1200px;
-    }
-    
-    #half1{
-        height : 3000px;
-    }
-} */
-/* @media screen and (width : 320px){
-    #up{
-        width :82%;
-        
-    }
-    #big{
-        width : 550px;
-        font-size: xx-large;
-}
-#half1{
-    height : 3500px;
-}
-    #down{
-        width : 100vw;
-        padding-top: 300px;
-    }
-    #play , #title , #first{
-        width : 1000px;
-    }
-    section{
-        width : 1000px;
-        height : 1500px;
-    }
-    
-} */
+
 #pic1 >span> #texta >a{
     color : white;
     text-decoration : none;
@@ -923,9 +869,9 @@ section{
     #play{
         padding-top: 290px;
     }
-    .list{
+    /* .list{
         width : 400vw;
-    }
+    } */
     #down>section{
         width : 260vw;
     }
@@ -973,6 +919,12 @@ section{
     }
     #playTitle{
         width : 1120px;
+    }
+    #re1{
+        width : 120%;
+    }
+    #foot2-re{
+        margin-right: 100px;
     }
 }
 @media screen and (min-width : 500px) and (max-width : 600px){
@@ -1099,8 +1051,8 @@ section{
 }
 @media screen and (min-width : 1300px) and (max-width : 1500px){
     #up{
-        width : 86vw;
-
+        width : 84vw;
+        height : 250px;
     }
     #half1{
         height : 100vh;
@@ -1114,6 +1066,11 @@ section{
     }
    
 
+}
+@media screen and (width : 1440px){
+    #up{
+        width : 85.5vw;
+    }
 }
 @media screen and (width : 280px){
     #up{
@@ -1131,4 +1088,85 @@ section{
     #foot2-re{
         margin-left : -100px;
     }
+    #half{
+        width : 200vw;
+    }
+    .list{
+        width : 120%;
+    }
 }
+@media screen and (max-width : 540px){
+    .td1 img{
+        width : 150px;
+        height : 150px;
+    }
+    .list{
+        margin-block: 100px;
+    }
+    #good>h3{
+        font-size: 20px;
+    }
+    .list>div>p{
+        font-size: 20px;
+    }
+    .list{
+        margin-inline: 10px;
+    }
+    #down>section>:first-child{
+        margin-top: 10px;
+    }
+    
+    #title>#pr1{
+         margin-left: 40px;
+    }
+   
+}
+
+@media screen and (min-width : 550px) and (max-width : 1000px){
+    #foot2{
+        margin-top: 30px;
+    }
+    
+}
+@media screen and (width : 540px){
+    #bottom-left{
+        display: none;
+    }
+    #foot3{
+        display: none;
+    }
+    #foot2{
+        margin-left: 20px;
+    }
+    #foot2-re{
+        width : 2000px;
+    }
+    #re1{
+        width : 80%;
+    }
+    #foot1{
+        visibility: hidden;
+    }
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color : black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 3px 3px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    cursor: pointer;
+  }
