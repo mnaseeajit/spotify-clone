@@ -301,10 +301,8 @@ select {
     display : flex;
     margin-top : 0%;
     padding-top: 0%;
-   
-    height : 40vh;
-    width : 84vw;
-    /* margin-left: 225px; */
+    height : 240px;
+    width : 1150px;
     position : fixed;
     top : 0px;
     right : 0px;
@@ -429,6 +427,7 @@ height : 20px;
     width :100vw;
     /* height: 60vh;
     width: 84vw; */
+    
 }
 .list :hover{
     background-color: #222525;
@@ -440,12 +439,12 @@ height : 20px;
     justify-content: space-between;
     align-items: center;
 }
- #play , #title{
+ /* #play , #title{
     width : 100%;
-}
+} */
 #playTitle{
     background: linear-gradient(#252e2b , black);
-    
+
 }
 #first-1{
     background-color: #212423;
@@ -615,26 +614,29 @@ section{
 #foot2 > #foot21 > #footmid{
     padding-top : 10px;
 }
+#half1{
+    height : 100%;
+}
 /* #playTitle{
     width : 85vw;
 } */
 @media screen and (max-width : 480px){
-    #up{
+    /* #up{
         margin-right: 10px;
-    }
+    } */
     #half{
         height : 100%;
     }
-#half1{
+/* #half1{
         width : 1230px;
         height: 1800px;
-    }
+    } */
     /* #down{
         padding-top: 350px;
     } */
-    #playTitle{
+    /* #playTitle{
         width : 1000px
-    }
+    } */
     #texta ,#textb ,#textc{
         padding-left : 10px;
     }
@@ -742,7 +744,8 @@ section{
     }
     #down{
         padding-top: 250px;
-        width : 1450px
+        width : 1450px;
+        height : 1000px;
     }
     #up{
         width : 1230px;
@@ -812,10 +815,10 @@ section{
      #half1{
         width : 850px;
     } 
-    #big{
+    /* #big{
         font-size: 50px;
         font-weight: 700;
-    }
+    } */
     .p2{
         font-size: 10px;
     }
@@ -854,10 +857,10 @@ section{
         height : 2500px;
     }
 }
-@media screen and (width : 375px){
+/* @media screen and (width : 375px){
     #up{
         width :1000px;
-        /* height : 20%; */
+        
     }
     #down{
         width : 100vw;
@@ -870,17 +873,14 @@ section{
         width : 1000px;
         height : 1200px;
     }
-    /* #play{
-        padding-top : 90px;
-    } */
+    
     #half1{
         height : 3000px;
     }
-}
-@media screen and (width : 320px){
+} */
+/* @media screen and (width : 320px){
     #up{
         width :82%;
-        /* height : 20%; */
         
     }
     #big{
@@ -901,16 +901,234 @@ section{
         width : 1000px;
         height : 1500px;
     }
-    /* #play{
-        padding-top : 150px;
-    } */
-}
+    
+} */
 #pic1 >span> #texta >a{
     color : white;
     text-decoration : none;
 }
-@media screen and (min-width: 700px){
+
+
+@media screen and (max-width : 300px){
     #half1{
-        height : 100px;
+        width : 400vw;
+        height :  400vh;
+       overflow: hidden;
+    }
+
+    #up{
+        width : 320vw;
+        height : 80vh;
+    }
+    #play{
+        padding-top: 290px;
+    }
+    .list{
+        width : 400vw;
+    }
+    #down>section{
+        width : 260vw;
+    }
+    #playTitle{
+        width : 400vw;
+    }
+    
+    
+}
+
+@media screen and (min-width : 300px) and (max-width : 400px){
+    #up{
+        height : 380px;
+        width : 1030px;
+    }
+    #down{
+          padding-top: 380px;
+    }
+    #half1{
+        height : 400vh;
+        width : 1250px;
+    }
+    #down>section{
+        width : 260vw;
+    }
+    #playTitle{
+        width : 1000px;
+    }
+}
+
+@media screen and (min-width : 400px) and (max-width : 500px){
+    #up{
+        height : 360px;
+        width : 1130px;
+    }
+    #down{
+          padding-top: 360px;
+    }
+    #half1{
+        height : 300vh;
+        width : 1350px;
+    }
+    #down>section{
+        width : 260vw;
+    }
+    #playTitle{
+        width : 1120px;
+    }
+}
+@media screen and (min-width : 500px) and (max-width : 600px){
+    #up{
+        height : 300px;
+        width : 1480px;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        width : 1700px;
+        height : 350vh;
+    }
+    #down>section{
+        width : 260vw;
+    }
+    #playTitle{
+        width : 1400px;
+    }
+}
+@media screen and (min-width : 600px) and (max-width : 700px){
+    #up{
+        height : 300px;
+        width : 1000px;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        width : 770px;
+        height : 150vh;
+    }
+    #big{
+        font-size: 70px;
+    }
+    #down>section{
+        width : 260vw;
+    }
+}
+@media screen and (min-width : 700px) and (max-width : 800px){
+    #up{
+        height : 300px;
+        width : 175vw;
+    }
+    #down{
+          padding-top: 300px;
+          width : 200vw;
+    }
+    #half1{
+        width : 1550px;
+        height : 200vh;
+    }
+
+    #down>section{
+        width : 162vw;
+    }
+}
+@media screen and (min-width : 800px) and (max-width : 900px){
+    #up{
+        height : 300px;
+        width : 780px;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        height : 120vh;
+        width : 1000px;
+    }
+    #big{
+        font-size: 70px;
+    }
+    #playTitle{
+        width : 780px;
+    }
+}
+@media screen and (min-width : 900px) and (max-width : 1000px){
+    #up{
+        height : 300px;
+        width : 780px;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        width : 1000px;
+        height : 100vh;
+    }
+    #big{
+        font-size: 70px;
+    }
+    #playTitle{
+        width : 780px;
+    }
+}
+@media screen and (min-width : 1000px) and (max-width : 1100px){
+    #up{
+        height : 300px;
+        width : 84vw;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        width : 1000px;
+        height : 100vh;
+    }
+    
+}
+@media screen and (min-width : 1100px) and (max-width : 1300px){
+    #up{
+        height : 300px;
+        width : 83vw;
+    }
+    #down{
+          padding-top: 300px;
+    }
+    #half1{
+        width : 100vw;
+        height : 100vh;
+    }
+    
+}
+@media screen and (min-width : 1300px) and (max-width : 1500px){
+    #up{
+        width : 86vw;
+
+    }
+    #half1{
+        height : 100vh;
+        width : 100vw;
+    }
+}
+@media screen and (min-width : 1500px) {
+    #up{
+        width : 81vw;
+
+    }
+   
+
+}
+@media screen and (width : 280px){
+    #up{
+        width : 900px;
+        height : 300px;
+    }
+    #down{
+        padding-top: 20px;
+    }
+    #up>img{
+        width : 200px;
+        height : 200px;
+        margin-top: 70px;
+    }
+    #foot2-re{
+        margin-left : -100px;
     }
 }
